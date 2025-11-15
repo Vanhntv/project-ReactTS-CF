@@ -1,5 +1,4 @@
 import { useCart } from "../contexts/CartContext";
-import { useEffect } from "react";
 
 const CartPage = () => {
   const { cart, removeFromCart, updateQuantity } = useCart();
